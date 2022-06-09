@@ -15,7 +15,7 @@ def factorization(n)
       return
     end
 
-    r = 0
+    r = 2
     r += 1 while ((a**r) % n) == 1 && (a**r) < t
 
     next if r.odd?
